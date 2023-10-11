@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Vegetarian Checker</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section class="main">
+			<h1>Is it Vegetarian?</h1>
+
+			<div class="inputContainer">
+				<input type="text" id="barcodeInput">
+				<button class ='btn' id="submit">Submit</button>
+				<span>(Insert a 12 digit barcode. Ex. 111222333444)</span>
+			</div>
+
+			<div class="imgContainer hidden">
+				<img src="#" class="hidden" alt="productImg">
+			</div>
+
+			<div class="nameContainer">
+				<h4 id="productName"></h4>
+			</div>
+
+			<div class="tableContainer hidden">
+				<table class="ingredients">
+					<tr id="tableHeading">
+						<th id="ingredient">Ingredient</th>
+						<th id="vegetarian">Vegetarian?</th>
+					</tr>
+				</table>
+			</div>
+			
+		</section>
+		
+		
+		
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

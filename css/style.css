@@ -1,0 +1,139 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     text-align: center;
+     background-color: #Ffe9a9;
+
+}
+
+.hidden {
+     display: none;
+}
+
+.btn {
+     border-radius: 30px;
+     border: 1px solid black;
+     color: black;
+     border-color: rgb(155, 155, 155);
+     padding: 1rem;
+}
+
+.btn:hover {
+     cursor: pointer;
+     color: white;
+     background-color: rgba(53, 50, 50, 0.445);
+     border-color: rgb(233, 233, 233);
+}
+
+table, th, td {
+     border:1px solid black;
+   }
+
+
+.red {
+     background-color: red;
+}
+
+.yellow {
+     background-color: yellow;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.main {
+     width: 80%;
+     margin: 0 auto;
+     /* border: 1px solid black; */
+     height: 100vh;
+}
+.inputContainer {
+     /* border: 1px solid blue; */
+     width: 50%;
+     margin: 0 auto;
+     margin-bottom: 1rem;
+     gap: 1rem;
+     display: flex;
+     flex-direction: column;
+}
+
+.inputContainer span {
+     font-style: italic;
+     font-size: .8rem;
+
+}
+
+.imgContainer {
+     max-width: 50%;
+     margin: 0 auto;
+     border: 1px solid black;
+     height: 20vh;
+     margin-bottom: 1rem;
+}
+
+.imgContainer img {
+     max-width: 100%;
+     max-height: 100%;
+}
+
+.tableContainer, .nameContainer {
+     max-width: 80%;
+     /* border: 1px solid black; */
+     margin: 0 auto;
+
+}
+
+.tableContainer {
+     margin-bottom: 2rem;
+}
+.nameContainer {
+     margin-bottom: 1rem;
+}
+
+.ingredients {
+     width: 100%;
+}
+
+#ingredient{
+     width: 80%;
+}
+#vegetarian {
+     width: 20%;
+}
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
